@@ -1,0 +1,279 @@
+[
+  {
+    "Name": "aws-target-static-id",
+    "Value": "1570982878176-203598",
+    "Domain": ".amazon.com",
+    "Path": "/",
+    "Secure": false,
+    "HttpOnly": false,
+    "Expires": "10-10-2029 16:07:58"
+  },
+  {
+    "Name": "aws-ubid-main",
+    "Value": "604-7084252-7381645",
+    "Domain": ".amazon.com",
+    "Path": "/",
+    "Secure": true,
+    "HttpOnly": true,
+    "Expires": "10-10-2029 16:07:58"
+  },
+  {
+    "Name": "aws-business-metrics-last-visit",
+    "Value": "1571576711340",
+    "Domain": ".amazon.com",
+    "Path": "/",
+    "Secure": false,
+    "HttpOnly": true,
+    "Expires": "10-10-2029 16:07:58"
+  },
+  {
+    "Name": "aws-session-id",
+    "Value": "178-6704070-8972143",
+    "Domain": ".amazon.com",
+    "Path": "/",
+    "Secure": false,
+    "HttpOnly": false,
+    "Expires": "10-10-2029 16:07:58"
+  },
+  {
+    "Name": "aws-session-id-time",
+    "Value": "1571577052l",
+    "Domain": ".amazon.com",
+    "Path": "/",
+    "Secure": false,
+    "HttpOnly": false,
+    "Expires": "10-10-2029 16:07:58"
+  },
+  {
+    "Name": "i18n-prefs",
+    "Value": "USD",
+    "Domain": ".amazon.com",
+    "Path": "/",
+    "Secure": false,
+    "HttpOnly": false,
+    "Expires": "10-10-2029 16:07:58"
+  },
+  {
+    "Name": "s_pers",
+    "Value": "%20s_fid%3D24F5BD636423E314-33577031AE9E3FBF%7C1732491387740%3B%20s_dl%3D1%7C1574640387740%3B%20gpv_page%3DUS%253AAS%253ASOA-overview-footer%7C1574640387740%3B%20s_ev15%3D%255B%255B%2527SCSOAlogin%2527%252C%25271574638587741%2527%255D%255D%7C1732491387741%3B",
+    "Domain": ".amazon.com",
+    "Path": "/",
+    "Secure": false,
+    "HttpOnly": false,
+    "Expires": "10-10-2029 16:07:58"
+  },
+  {
+    "Name": "x-wl-uid",
+    "Value": "1X17L+IMzxUblsRksIkjZbL7R4RbaMlMk55GLmWI8hK/JmqEdr890QmdT2JK4wryV0ALPBPTGpPYQKUjbjhsk3CFfwp3Zp5RR9s54Eis1vs2KH9Ty9CLAn82pMs6u+m9KPwezK5neZMI=",
+    "Domain": ".amazon.com",
+    "Path": "/",
+    "Secure": false,
+    "HttpOnly": false,
+    "Expires": "10-10-2029 16:07:58"
+  },
+  {
+    "Name": "aws-userInfo",
+    "Value": "%7B%22arn%22%3A%22arn%3Aaws%3Aiam%3A%3A330581015264%3Aroot%22%2C%22alias%22%3A%22%22%2C%22userName%22%3A%22Alex%2520Cernov%22%2C%22keybase%22%3A%22%22%2C%22issuer%22%3A%22http%3A%2F%2Fsignin.aws.amazon.com%2Fsignin%22%7D",
+    "Domain": ".amazon.com",
+    "Path": "/",
+    "Secure": true,
+    "HttpOnly": false,
+    "Expires": "10-10-2029 16:07:58"
+  },
+  {
+    "Name": "at-main",
+    "Value": "Atza|IwEBIP7P3vH4m5mO8gvJMbZD57AJwtS-3g4HMrJFO0-RWrpCtFmfPfkFT9eW_BmQysthxsLH0bvrJTzcsx2EzSL-AsB1P--QuIQQHaSpTgbksCkgYzLbXt6vwfse5vihRibHg7p8_pM7kt1zJvpc6eIWHTcqM0PSkQO12d174iVpz6zXjgACSxyhEqbbYMpmP0w2ecA8GLzvGVrU8DShR35zsYjU3eQvV95imaDMIS6kohFcYXVHTtfYSeDxRvvyRyCDin4p8zAiPPW3cBwKxKzj_tIA17Q6s24q939RpCzxGihKVxuDLxdjUAPU76_W_XfD_0-Gz7XyOyI5vH7g40RIrgcczMyhBRuSiw6cgNRsS-IF6pbtLAlcohL5238ueJu2YZ_Lu1Fe3d9UxfaTaoviN2Sn",
+    "Domain": ".amazon.com",
+    "Path": "/",
+    "Secure": true,
+    "HttpOnly": true,
+    "Expires": "10-10-2029 16:07:58"
+  },
+  {
+    "Name": "sess-at-main",
+    "Value": "\"9DQ2OeC84yrsjFrGYtGklH6XxUM2J76KmTSsgR0/HnE=\"",
+    "Domain": ".amazon.com",
+    "Path": "/",
+    "Secure": true,
+    "HttpOnly": true,
+    "Expires": "10-10-2029 16:07:58"
+  },
+  {
+    "Name": "sst-main",
+    "Value": "Sst1|PQFsNxY69CfPUImEjjhzeCLOC-cLkxdk3xY_OxPr1Ac-qd3R9bWvKJfoUoDP0ygz69sIxw1ykwj_oU7lwWc8Z57kgr24KLanjgmOifc3Sphz1gsr-RmUey26p6WgXSTSPTSXbBjbLNWjevxLEp6TLhRKQrU5SUa_2HiazkgJc6EZCZgS175ulVtQrYqdYZsiv-3O4eg_yNCz9QcCqSfCZlWPbWAL5UIreEGNDhUZ2riD2E0k-257iB7JHm7-KutQlHJkkTvurrQPwrJBBDMZwaWskA7G6CuMlUCk6rTAtATUdOSlgpt417ifItZo0ImC6_uuZeTStn_wci0vIuXjjkVNwQ",
+    "Domain": ".amazon.com",
+    "Path": "/",
+    "Secure": true,
+    "HttpOnly": true,
+    "Expires": "10-10-2029 16:07:58"
+  },
+  {
+    "Name": "x-main",
+    "Value": "\"97JDXN6JfuACaSv@QYugpxtjuXfYGX6L4UzqzcrGZ2P00lbt90ZNA2ty9Kp8uC72\"",
+    "Domain": ".amazon.com",
+    "Path": "/",
+    "Secure": false,
+    "HttpOnly": false,
+    "Expires": "10-10-2029 16:07:58"
+  },
+  {
+    "Name": "session-id-time",
+    "Value": "2082787201l",
+    "Domain": ".amazon.com",
+    "Path": "/",
+    "Secure": false,
+    "HttpOnly": false,
+    "Expires": "10-10-2029 16:07:58"
+  },
+  {
+    "Name": "session-id",
+    "Value": "146-3408085-7686609",
+    "Domain": ".amazon.com",
+    "Path": "/",
+    "Secure": false,
+    "HttpOnly": false,
+    "Expires": "10-10-2029 16:07:58"
+  },
+  {
+    "Name": "ubid-main",
+    "Value": "130-8367078-6530751",
+    "Domain": ".amazon.com",
+    "Path": "/",
+    "Secure": false,
+    "HttpOnly": false,
+    "Expires": "10-10-2029 16:07:58"
+  },
+  {
+    "Name": "skin",
+    "Value": "noskin",
+    "Domain": ".amazon.com",
+    "Path": "/",
+    "Secure": false,
+    "HttpOnly": false
+  },
+  {
+    "Name": "session-token",
+    "Value": "OSxVXnK6tsAggRwKWRQl7x7axPLQTxcYIyO357sk4xvC39+HbdhD4kp+bWN6QHtGQ5fYdZSc5gLLhgUVOn9v8eqRo3TRbH5BmYTW3O4uhO7jyXVQM54umDf8Bt0aoQ8A+aZMwY4maUKcef8RPZfns2sST3T6dF0dqgWJhuSofAcmM1lUzLdFfERyAj4lEAxEjbW/fUI1SkVOm9eTsvx2InbmAzBmh3+4oH2KLVQqC9PDJ9BGe0OCVgQ4oxJGdnnAclURmq2UTNz6KeDmh0Qimg==",
+    "Domain": ".amazon.com",
+    "Path": "/",
+    "Secure": false,
+    "HttpOnly": false,
+    "Expires": "10-10-2029 16:07:58"
+
+  },
+  {
+    "Name": "s_vn",
+    "Value": "1602518878209%26vn%3D4",
+    "Domain": ".amazon.com",
+    "Path": "/",
+    "Secure": false,
+    "HttpOnly": false,
+    "Expires": "10-10-2029 16:07:58"
+  },
+  {
+    "Name": "c_m",
+    "Value": "undefinedwww.google.comSearch%20Engine",
+    "Domain": ".amazon.com",
+    "Path": "/",
+    "Secure": false,
+    "HttpOnly": false
+  },
+  {
+    "Name": "s_cc",
+    "Value": "true",
+    "Domain": ".amazon.com",
+    "Path": "/",
+    "Secure": false,
+    "HttpOnly": false
+  },
+  {
+    "Name": "s_depth",
+    "Value": "2",
+    "Domain": ".amazon.com",
+    "Path": "/",
+    "Secure": false,
+    "HttpOnly": false,
+    "Expires": "10-10-2029 16:07:58"
+  },
+  {
+    "Name": "s_fid",
+    "Value": "3A7D1688CF1E3D17-1573A8CD19960BE3",
+    "Domain": ".amazon.com",
+    "Path": "/",
+    "Secure": false,
+    "HttpOnly": false,
+    "Expires": "10-10-2029 16:07:58"
+  },
+  {
+    "Name": "s_dslv",
+    "Value": "1580565897298",
+    "Domain": ".amazon.com",
+    "Path": "/",
+    "Secure": false,
+    "HttpOnly": false,
+    "Expires": "10-10-2029 16:07:58"
+  },
+  {
+    "Name": "s_dslv_s",
+    "Value": "More%20than%207%20days",
+    "Domain": ".amazon.com",
+    "Path": "/",
+    "Secure": false,
+    "HttpOnly": false,
+    "Expires": "10-10-2029 16:07:58"
+  },
+  {
+    "Name": "s_invisit",
+    "Value": "true",
+    "Domain": ".amazon.com",
+    "Path": "/",
+    "Secure": false,
+    "HttpOnly": false,
+    "Expires": "10-10-2029 16:07:58"
+  },
+  {
+    "Name": "s_nr",
+    "Value": "1580565897299-Repeat",
+    "Domain": ".amazon.com",
+    "Path": "/",
+    "Secure": false,
+    "HttpOnly": false,
+    "Expires": "10-10-2029 16:07:58"
+  },
+  {
+    "Name": "regStatus",
+    "Value": "registered",
+    "Domain": ".amazon.com",
+    "Path": "/",
+    "Secure": false,
+    "HttpOnly": false,
+    "Expires": "10-10-2029 16:07:58"
+  },
+  {
+    "Name": "cdn-session",
+    "Value": "AK-f43488287de7f30d09648bcd00bca30b",
+    "Domain": "www.amazon.com",
+    "Path": "/",
+    "Secure": false,
+    "HttpOnly": false,
+    "Expires": "10-10-2029 16:07:58"
+  },
+  {
+    "Name": "cdn-rid",
+    "Value": "0F934E525795727A9127",
+    "Domain": "www.amazon.com",
+    "Path": "/",
+    "Secure": false,
+    "HttpOnly": false,
+    "Expires": "10-10-2029 16:07:58"
+  },
+  {
+    "Name": "csm-hit",
+    "Value": "tb:DC4DF434DZPHN1R328E4+s-2KW5BYFSMMDB1DZB76XN|1580566083179&t:1580566083179",
+    "Domain": "www.amazon.com",
+    "Path": "/",
+    "Secure": false,
+    "HttpOnly": false,
+    "Expires": "10-10-2029 16:07:58"
+  }
+]

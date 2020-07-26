@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="NicheResearchTool.Controllers.AlibabaController">
+    <Position X="22" Y="4" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAACASEABgAEAAABAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\AlibabaController.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="db" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="NicheResearchTool.Controllers.AmazonController">
+    <Position X="22" Y="0.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAACAQECBAAAAAAAAAAAgAAAABAAAAAAAEAAA=</HashCode>
+      <FileName>Controllers\AmazonController.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="db" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="NicheResearchTool.Controllers.GoogleApiController">
+    <Position X="15" Y="5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAABAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Controllers\GoogleApiController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NicheResearchTool.Controllers.ResearchProjectsController">
+    <Position X="28.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEBAAoACAQgEAgAAAAAAEAAIAACAAAIAAAAAAAgAA=</HashCode>
+      <FileName>Controllers\ResearchProjectsController.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="db" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="NicheResearchTool.Controllers.UsersController">
+    <Position X="25.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAACAQAQAAAAAAAAAAAAAAAAAAMAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\UsersController.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="db" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="NicheResearchTool.Models.NicheResearchContext">
+    <Position X="24.5" Y="4" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAABAAAAAAAAAAAAAVgEAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Models\NicheResearchContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NicheResearchTool.Models.PostRequestProjectAlibabaModel">
+    <Position X="12" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAQAAAA=</HashCode>
+      <FileName>Models\PostRequestAddItemsToProjectModel.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ResearchProject" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="AlibabaItems" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="NicheResearchTool.Models.PostRequestProjectAmazonModel">
+    <Position X="17.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Models\PostRequestAddItemsToProjectModel.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ResearchProject" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="AmazonItems" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="NicheResearchTool.Models.ResearchProject">
+    <Position X="14.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAADAAAAAAABAAAAAAAAAAQEAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Models\ResearchProject.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ProjectType" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="NicheResearchTool.Models.SavedAlibabaItem">
+    <Position X="17.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAQEBAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\SavedAlibabaItem.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Project" />
+      <Property Name="Item" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="NicheResearchTool.Models.SavedAmazonItem">
+    <Position X="20.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAACAAEBAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\SavedAmazonItem.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Project" />
+      <Property Name="Item" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="NicheResearchTool.Models.User">
+    <Position X="12" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAEAAACAAACAAEAAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Models\User.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Role" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="NicheResearchTool.Models.Role">
+    <Position X="15" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Models\User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlibabaScraper.Models.AlibabaItem">
+    <Position X="17.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="AmazonScraper.Models.AmazonItem">
+    <Position X="20.25" Y="1" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Enum Name="NicheResearchTool.Models.ProjectType">
+    <Position X="12" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ResearchProject.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

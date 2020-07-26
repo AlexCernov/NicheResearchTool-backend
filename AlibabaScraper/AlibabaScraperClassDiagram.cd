@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AlibabaScraper.Utility.Scraper">
+    <Position X="22.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAARAAQCAAAAgAAAAgABAAAEAAAAA=</HashCode>
+      <FileName>Utility\Scraper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlibabaScraper.Models.AlibabaItem">
+    <Position X="18" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAACAAEAAAAAACAEAgAAAAQCBAIAABAAAAAgRgAACAA=</HashCode>
+      <FileName>Models\AlibabaItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlibabaScraper.Models.AlibabaPage">
+    <Position X="20.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAEQAAAAAgAAAAAAACAAAAAQAAAAAA=</HashCode>
+      <FileName>Models\AlibabaPage.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="FilterData" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Items" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="AlibabaScraper.Models.AlibabaPageGeneratorJson">
+    <Position X="19.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAABAAAAAAAAAACAAAAAACAAAACAAAg=</HashCode>
+      <FileName>Models\AlibabaPageGeneratorJson.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="props" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="AlibabaScraper.Models.Props">
+    <Position X="15.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AoAAAAAAAAAAAAAAAAIEwAABAAECAAAAEQAAAAAAgAA=</HashCode>
+      <FileName>Models\AlibabaPageGeneratorJson.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="cpvClusterData" />
+      <Property Name="snData" />
+      <Property Name="offerResultData" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="AlibabaScraper.Models.CpvClusterData">
+    <Position X="15.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\AlibabaPageGeneratorJson.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="clusterListData" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="AlibabaScraper.Models.ClusterListData">
+    <Position X="17.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAEAAAAAQCAAAAAAAAAAAAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\AlibabaPageGeneratorJson.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="clusters" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="AlibabaScraper.Models.Cluster">
+    <Position X="21.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAACEAAAAAAQAAAAAA=</HashCode>
+      <FileName>Models\AlibabaPageGeneratorJson.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlibabaScraper.Models.SnData">
+    <Position X="24.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIBACAAAIAgAgABAQCIAAABAAIAAAAQQA=</HashCode>
+      <FileName>Models\AlibabaPageGeneratorJson.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="clusters" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="AlibabaScraper.Models.Clusters">
+    <Position X="22.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Models\AlibabaPageGeneratorJson.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="cpvFeatureData" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="AlibabaScraper.Models.CpvFeatureData">
+    <Position X="23.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAEAAQAAQAAAAAAAAAAAAAAABACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\AlibabaPageGeneratorJson.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlibabaScraper.Models.OfferResultData">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABBAAAAAAACIAAACAQAAAEAAAAAAAAIAAAAgAwFAAA=</HashCode>
+      <FileName>Models\AlibabaPageGeneratorJson.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="themeUrls" />
+      <Property Name="offerList" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="AlibabaScraper.Models.ThemeUrl">
+    <Position X="15.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Models\AlibabaPageGeneratorJson.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlibabaScraper.Models.OfferList">
+    <Position X="13.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAACgAABAAAAEAAACAAAAAEAAAAAAAAAIAAAQAAgQ=</HashCode>
+      <FileName>Models\AlibabaPageGeneratorJson.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="GoogleTrendsApiClient.GoogleTrendsClient">
+    <Position X="17.25" Y="1.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AACARAAAAAAAAQBgIAAAAAiAAAAAAAAAQhAEAAAACAA=</HashCode>
+      <FileName>GoogleTrendsClient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GoogleTrendsApiClient.Models.ComparisonItem">
+    <Position X="5.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\InterestOverTimeRequest.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="complexKeywordsRestriction" />
+      <Property Name="geo" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="GoogleTrendsApiClient.Models.InterestOverTimeRequest">
+    <Position X="9.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAACEAABAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Models\InterestOverTimeRequest.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="requestOptions" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="comparisonItem" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="GoogleTrendsApiClient.Models.TimelineData">
+    <Position X="7.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAgAABAACAAACAAAgAAAQAAAAA=</HashCode>
+      <FileName>Models\InterestOverTimeResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GoogleTrendsApiClient.Models.InterestOverTimeDefault">
+    <Position X="7" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\InterestOverTimeResponse.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="timelineData" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="GoogleTrendsApiClient.Models.InterestOverTimeResponse">
+    <Position X="5.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\InterestOverTimeResponse.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="@default" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="GoogleTrendsApiClient.Models.RankedKeywordQueries">
+    <Position X="3.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAAAAAACAAAgAIAAAAAEA=</HashCode>
+      <FileName>Models\RelatedQueriesResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GoogleTrendsApiClient.Models.RankedListQueries">
+    <Position X="0.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Models\RelatedQueriesResponse.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="rankedKeyword" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="GoogleTrendsApiClient.Models.RelatedQueriesDefault">
+    <Position X="15" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\RelatedQueriesResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GoogleTrendsApiClient.Models.RelatedQueriesResponse">
+    <Position X="20" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\RelatedQueriesResponse.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="@default" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="GoogleTrendsApiClient.Models.RankedKeywordTopics">
+    <Position X="3.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAgAAAAAAAAACAAAgAAAAAAAEA=</HashCode>
+      <FileName>Models\RelatedTopicsResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GoogleTrendsApiClient.Models.RankedListTopics">
+    <Position X="0.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Models\RelatedTopicsResponse.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="rankedKeyword" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="GoogleTrendsApiClient.Models.RelatedTopicsDefault">
+    <Position X="0.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\RelatedTopicsResponse.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="rankedList" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="GoogleTrendsApiClient.Models.RelatedTopicsResponse">
+    <Position X="0.75" Y="5.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\RelatedTopicsResponse.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="@default" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="GoogleTrendsApiClient.Models.RequestTemplate">
+    <Position X="11.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAACEAABAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Models\RequestTemplate.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="requestOptions" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="comparisonItem" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="GoogleTrendsApiClient.Models.ComparisonItemToken">
+    <Position X="12.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAQAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\TokenRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GoogleTrendsApiClient.Models.TokenRequest">
+    <Position X="15.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAIAAAAAAE=</HashCode>
+      <FileName>Models\TokenRequest.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="comparisonItem" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="GoogleTrendsApiClient.Models.Geo">
+    <Position X="13.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Models\WidgetResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GoogleTrendsApiClient.Models.Keyword">
+    <Position X="15" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\WidgetResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GoogleTrendsApiClient.Models.ComplexKeywordsRestriction">
+    <Position X="10" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\WidgetResponse.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="keyword" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="GoogleTrendsApiClient.Models.ComparisonItemTimed">
+    <Position X="0.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\WidgetResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GoogleTrendsApiClient.Models.RequestOptions">
+    <Position X="3.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAE=</HashCode>
+      <FileName>Models\WidgetResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GoogleTrendsApiClient.Models.Restriction">
+    <Position X="11.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAEQAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Models\WidgetResponse.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="complexKeywordsRestriction" />
+      <Property Name="geo" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="GoogleTrendsApiClient.Models.TrendinessSettings">
+    <Position X="15" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\WidgetResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GoogleTrendsApiClient.Models.Request">
+    <Position X="8.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAEAAAAAAAgAAAAAYCEAABIAAAAEQAAAAAAAgAA=</HashCode>
+      <FileName>Models\WidgetResponse.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="requestOptions" />
+      <Property Name="trendinessSettings" />
+      <Property Name="restriction" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="comparisonItem" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="GoogleTrendsApiClient.Models.Widget">
+    <Position X="20" Y="2.75" Width="1.5" />
+    <Members>
+      <Property Name="helpDialog" Hidden="true" />
+      <Property Name="isCurated" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>IAEAICAAQIAAEIBAAABAQDCEBAABAICoABAAAAABAgA=</HashCode>
+      <FileName>Models\WidgetResponse.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="helpDialog" />
+      <Property Name="request" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="GoogleTrendsApiClient.Models.KeywordTyped">
+    <Position X="14.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAABAAAFAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\WidgetResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GoogleTrendsApiClient.Models.WidgetResponse">
+    <Position X="17.25" Y="7" Width="1.5" />
+    <Members>
+      <Property Name="examples" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAgAAAAAAACAAAAQAAAAAAABAQAAAAAAAAAA=</HashCode>
+      <FileName>Models\WidgetResponse.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="examples" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="keywords" />
+      <Property Name="widgets" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

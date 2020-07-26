@@ -1,0 +1,142 @@
+{
+  "widgets": [
+    {
+      "request": {
+        "time": "2019-06-08 2020-06-08",
+        "resolution": "WEEK",
+        "locale": "en-US",
+        "comparisonItem": [
+          {
+            "geo": { "country": "US" },
+            "complexKeywordsRestriction": {
+              "keyword": [
+                {
+                  "type": "BROAD",
+                  "value": "leather bracelet"
+                }
+              ]
+            }
+          }
+        ],
+        "requestOptions": {
+          "property": "",
+          "backend": "IZG",
+          "category": 0
+        }
+      },
+      "lineAnnotationText": "Search interest",
+      "bullets": [ { "text": "leather bracelet" } ],
+      "showLegend": false,
+      "showAverages": false,
+      "helpDialog": {
+        "title": "Interest over time",
+        "content": "Numbers represent search interest relative to the highest point on the chart for the given region and time. A value of 100 is the peak popularity for the term. A value of 50 means that the term is half as popular. A score of 0 means there was not enough data for this term."
+      },
+      "token": "APP6_UEAAAAAXt-HLlsbrb0MsJ6e2L2uANsA6emeoxeT",
+      "id": "TIMESERIES",
+      "type": "fe_line_chart",
+      "title": "Interest over time",
+      "template": "fe",
+      "embedTemplate": "fe_embed",
+      "version": "1",
+      "isLong": true,
+      "isCurated": false
+    },
+    {
+      "request": {
+        "restriction": {
+          "geo": { "country": "US" },
+          "time": "2019-06-08 2020-06-08",
+          "originalTimeRangeForExploreUrl": "today 12-m",
+          "complexKeywordsRestriction": {
+            "keyword": [
+              {
+                "type": "BROAD",
+                "value": "leather bracelet"
+              }
+            ]
+          }
+        },
+        "keywordType": "ENTITY",
+        "metric": [ "TOP", "RISING" ],
+        "trendinessSettings": { "compareTime": "2018-06-06 2019-06-07" },
+        "requestOptions": {
+          "property": "",
+          "backend": "IZG",
+          "category": 0
+        },
+        "language": "en",
+        "userCountryCode": "US"
+      },
+      "helpDialog": {
+        "title": "Related topics",
+        "content": "Users searching for your term also searched for these topics. You can view by the following metrics: \u003cp\u003e* \u003cb\u003eTop\u003c/b\u003e - The most popular topics. Scoring is on a relative scale where a value of 100 is the most commonly searched topic and a value of 50 is a topic searched half as often as the most popular term, and so on. \u003cp\u003e* \u003cb\u003eRising\u003c/b\u003e - Related topics with the biggest increase in search frequency since the last time period. Results marked \"Breakout\" had a tremendous increase, probably because these topics are new and had few (if any) prior searches."
+      },
+      "color": "PALETTE_COLOR_1",
+      "keywordName": "leather bracelet",
+      "token": "APP6_UEAAAAAXt-HLqYhhhEcVTE2CJ2rRZ0ynFh_tPpb",
+      "id": "RELATED_TOPICS",
+      "type": "fe_related_searches",
+      "title": "Related topics",
+      "template": "fe",
+      "embedTemplate": "fe_embed",
+      "version": "1",
+      "isLong": false,
+      "isCurated": false
+    },
+    {
+      "request": {
+        "restriction": {
+          "geo": { "country": "US" },
+          "time": "2019-06-08 2020-06-08",
+          "originalTimeRangeForExploreUrl": "today 12-m",
+          "complexKeywordsRestriction": {
+            "keyword": [
+              {
+                "type": "BROAD",
+                "value": "leather bracelet"
+              }
+            ]
+          }
+        },
+        "keywordType": "QUERY",
+        "metric": [ "TOP", "RISING" ],
+        "trendinessSettings": { "compareTime": "2018-06-06 2019-06-07" },
+        "requestOptions": {
+          "property": "",
+          "backend": "IZG",
+          "category": 0
+        },
+        "language": "en",
+        "userCountryCode": "US"
+      },
+      "helpDialog": {
+        "title": "Related queries",
+        "content": "Users searching for your term also searched for these queries. You can sort by the following metrics: \u003cp\u003e* \u003cb\u003eTop\u003c/b\u003e - The most popular search queries. Scoring is on a relative scale where a value of 100 is the most commonly searched query, 50 is a query searched half as often as the most popular query, and so on. \u003cp\u003e* \u003cb\u003eRising\u003c/b\u003e - Queries with the biggest increase in search frequency since the last time period. Results marked \"Breakout\" had a tremendous increase, probably because these queries are new and had few (if any) prior searches.",
+        "url": "https://support.google.com/trends/answer/4355000"
+      },
+      "color": "PALETTE_COLOR_1",
+      "keywordName": "leather bracelet",
+      "token": "APP6_UEAAAAAXt-HLnUPB9uSJfnDFMoEsMsHv8R4D4kZ",
+      "id": "RELATED_QUERIES",
+      "type": "fe_related_searches",
+      "title": "Related queries",
+      "template": "fe",
+      "embedTemplate": "fe_embed",
+      "version": "1",
+      "isLong": false,
+      "isCurated": false
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "leather bracelet",
+      "name": "leather bracelet",
+      "type": "Search term"
+    }
+  ],
+  "timeRanges": [ "Past 12 months" ],
+  "examples": [],
+  "shareText": "Explore search interest for leather bracelet by time, location and popularity on Google Trends",
+  "shouldShowMultiHeatMapMessage": false
+}

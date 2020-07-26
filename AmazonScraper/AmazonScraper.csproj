@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net461</TargetFramework>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="HtmlAgilityPack" Version="1.11.23" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="NUglify" Version="1.5.14" />
+    <PackageReference Include="System.ComponentModel.Annotations" Version="4.7.0" />
+    <PackageReference Include="System.Net.Http" Version="4.3.4" />
+    <PackageReference Include="System.Security.Permissions" Version="4.7.0" />
+    <PackageReference Include="System.ValueTuple" Version="4.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="System.ComponentModel.DataAnnotations">
+      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.ComponentModel.DataAnnotations.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web" />
+  </ItemGroup>
+
+</Project>

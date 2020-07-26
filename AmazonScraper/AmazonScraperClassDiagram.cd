@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AmazonScraper.Models.AmazonItem">
+    <Position X="5.75" Y="2.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAICAAJAAQEAAAAEAAAAAAQAAAAAABEAAAAAQAAAAAA=</HashCode>
+      <FileName>Models\AmazonItem.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="BestSellerRank" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="AmazonScraper.Models.AmazonPage">
+    <Position X="10.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAAAAAACAAAAAAABAAAA=</HashCode>
+      <FileName>Models\AmazonPage.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Items" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="AmazonScraper.Models.BestSellerRank">
+    <Position X="7.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAgAAAAAAAAAAACAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\BestSellerRank.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AmazonScraper.Utility.HttpRequestHandler">
+    <Position X="7.75" Y="3.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAACAAAAAAgAAAAAAAAACAA=</HashCode>
+      <FileName>Utility\HttpRequestHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AmazonScraper.Utility.Scraper">
+    <Position X="9.75" Y="3" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAABAEAAAAAAAACAAiEgAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Utility\Scraper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
